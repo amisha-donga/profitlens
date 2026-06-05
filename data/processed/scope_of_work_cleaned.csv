@@ -1,0 +1,16 @@
+Section,Sub_Step,Description
+Inward,Unloading,Boxes counted and weighed. Data captured in the Maven.
+Inward,Validation,GRN will be initiated against a valid PO document and Invoice will be captured
+Inward,QC,No QC to be done (Outer Visual Inspection and Color matching)
+Inward,GRN,"Scanning (Goods will have scannable EAN code or unique barcodes) and counting of all inventory, verification of all data by supervisor and completion of GRN. Detailed report is made available"
+Inward,Putaway,Mobile HHT based Putaway to accurately record warehouse location for every item/roll
+Outward,Order receipt,Orders will be received through integration directly into Maven or directly to Maven by the client
+Outward,Picking,System driven optimised picking with real-time inventory correction by marking Not Found and alternate locations suggested
+Outward,Packing,System driven packing by putting products into Polybags to maintain accuracy and generate pack slips
+Outward,Invoicing,Print the invoice as generated through integration or provided by the client
+Outward,Shipping,Shipping labels and AWB via integration with vendors and generation of digital manifests to ensure accuracy
+Outward,POD,Digital PODs from vendors if available via integration
+Returns,Inward,RTO and Customer Returns are received and Inwarded in the warehouse Outer package visible inspection is done before inwarding
+Inventory management,Cycle count,Daily cycle count to maintain accuracy and deliver SLAs without disrupting regular operations. Complete Inventory to be covered in 3 months.
+Inventory management,,Any quantity not found during Cycle Count shall be parked in a non-serviceable location in Maven
+Inventory management,Audit,Annual wall to wall Audit including global count driven by system to ensure speed while eliminating human error

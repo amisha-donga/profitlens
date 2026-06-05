@@ -1,0 +1,13 @@
+Performance_Measure,Measurement,Target
+Monthly Fill Rate,Measurement is monthly,>99.8%
+Monthly Fill Rate,Calculated as: Total quantity available in Maven & dispatched/Total quantity ordered,
+Daily Processing Capacity,GRN throughput is subject to a cut-off of 11:00am,
+Daily Processing Capacity,Outbound throughput is subject to a cut-off of 2:00pm,
+Daily Processing Capacity,Returns throughput is subject to a cut-off of 10:00am,
+Customer Complaints,Measurement is monthly,<0.2%
+Customer Complaints,"Total affected quantity (Short reported, excess reported and mismatch reported)/ Total quantity ordered during the month",
+Allowed Shrinkage,Measured at the time of full audit carried out against Maven inventory by Client or any third party appointed by the Client,<0.2%
+Allowed Shrinkage,Final Shrinkage value calculated at Client’s holding cost of the inventory (net of any excess inventory found) Net value of transacted goods (excess – shortage) during the audit period measured at holding cost,1 Annual Audit is included in the commercials
+Penalty,Penalty for fillrate,2x of the service fee per affected qty
+Penalty,Penalty cap for service lapse,10% of monthly billing; not applicable if there are outstanding payments; no cap on shrinkage
+Others,Days of Operations,7 days per week
